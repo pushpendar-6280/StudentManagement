@@ -1,0 +1,24 @@
+javac -cp "D:\apache-tomcat-9.0.120\lib\*;D:\apache-tomcat-9.0.120\webapps\StudentManagement\WEB-INF\lib\*" -d D:\apache-tomcat-9.0.120\webapps\StudentManagement\WEB-INF\classes D:\apache-tomcat-9.0.120\webapps\StudentManagement\src\*.java
+
+
+
+
+javac -cp "D:\apache-tomcat-9.0.120\lib\*;                    ----------->    it acces all bin files
+
+
+
+
+
+javac -cp "D:\apache-tomcat-9.0.120\webapps\StudentManagement\WEB-INF\lib\*"     --------------------->    it help to acces server  bin
+
+
+
+
+
+ -d D:\apache-tomcat-9.0.120\webapps\StudentManagement\WEB-INF\classes     ---------------------->   it help to add all .class files in class folder
+ 
+ 
+ 
+ 
+ 
+ D:\apache-tomcat-9.0.120\webapps\StudentManagement\src\*.java   ----------------------->   it help to make  all classes files filename.class

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+
+<html>
+
+
+<head>
+    <title>Add Student</title>
+</head>
+
+
+<body>
+
+
+<h1>Add Student</h1>
+
+
+<form action="students" method="post">
+
+
+    <input type="hidden"
+           name="action"
+           value="add">
+
+
+    <label>Name:</label>
+    <input type="text" name="name" required>
+
+
+    <br><br>
+
+
+    <label>Email:</label>
+    <input type="email" name="email" required>
+
+
+    <br><br>
+
+
+    <label>Age:</label>
+    <input type="number" name="age" required>
+
+
+    <br><br>
+
+
+    <label>Course:</label>
+    <input type="text" name="course" required>
+
+
+    <br><br>
+
+
+    <button type="submit">
+        Add Student
+    </button>
+
+
+</form>
+
+
+<br>
+
+
+<a href="students?action=list">
+    View Students
+</a>
+
+
+</body>
+
+
+</html>
