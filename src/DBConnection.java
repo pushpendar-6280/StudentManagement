@@ -13,7 +13,7 @@ public class DBConnection {
     private static final String USER = "root";
 
 
-    private static final String PASSWORD = "Pushpendar@123";
+    private static final String PASSWORD = "your password here";
 
 
     public static Connection getConnection() {
